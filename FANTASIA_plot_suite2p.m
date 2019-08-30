@@ -115,7 +115,7 @@ xL = numel(dat.ops.xrange);
 
 %% plot Ca trace + Neuropil trace, Corrected trace, cell position
 close all
-for i = 31 % number of cell
+for i = 7 % number of cell
 figure,
 maxAmp = max(max(traceCell(i,:)));
 minAmp = min(min(tracePil(i,11:end)));
